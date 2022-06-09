@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#Booknav {
+    width: 500px;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1);
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#Booknavrow {
+    width: 500px;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+#Buscol1 a {
+    max-width: 100px;
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#Buscol1 a:hover {
+    color: red;
+}
+
+#Buscol1 {
+    max-width: 100px;
+    height: 50px;
+    background-color: black;
+}
+
+#Buscol2 a {
+    max-width: 100px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#Buscol2 a:hover {
+    color: blue;
+}
+
+#Buscol2 {
+    max-width: 100px;
+    height: 50px;
+    background-color: black;
+}
+
+#Buscol3 a {
+    max-width: 100px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#Buscol3 a:hover {
+    color: blue;
+}
+
+#Buscol3 {
+    max-width: 100px;
+    height: 50px;
+    background-color: black;
+}
+
+#Buscol4 a {
+    max-width: 100px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#Buscol4 a:hover {
+    color: blue;
+}
+
+#Buscol4 {
+    max-width: 100px;
+    height: 50px;
+    background-color: black;
+}
+
+#Buscol5 a {
+    max-width: 100px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#Buscol5 a:hover {
+    color: blue;
+}
+
+#Buscol5 {
+    max-width: 100px;
+    height: 50px;
+    background-color: black;
+}
+/* Flight Page Navbar */
+
+#Flightcol1 a {
+    max-width: 100px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#Flightcol1 a:hover {
+    color: blue;
+}
+
+#Flightcol1 {
+    max-width: 100px;
+    height: 50px;
+    background-color: black;
+}
+
+#Flightcol2 a {
+    max-width: 100px;
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#Flightcol2 a:hover {
+    color: red;
+}
+
+#Flightcol2 {
+    max-width: 100px;
+    height: 50px;
+    background-color: black;
+}
+
+#Flightcol3 a {
+    max-width: 100px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#Flightcol3 a:hover {
+    color: blue;
+}
+
+#Flightcol3 {
+    max-width: 100px;
+    height: 50px;
+    background-color: black;
+}
+
+#Flightcol4 a {
+    max-width: 100px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#Flightcol4 a:hover {
+    color: blue;
+}
+
+#Flightcol4 {
+    max-width: 100px;
+    height: 50px;
+    background-color: black;
+}
+
+#Flightcol5 a {
+    max-width: 100px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#Flightcol5 a:hover {
+    color: blue;
+}
+
+#Flightcol5 {
+    max-width: 100px;
+    height: 50px;
+    background-color: black;
+}
+
+/* END */
+
+
+/* Hotel page Navebar */
+
+#Hotelcol1 a {
+    max-width: 100px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#Hotelcol1 a:hover {
+    color: blue;
+}
+
+#Hotelcol1 {
+    max-width: 100px;
+    height: 50px;
+    background-color: black;
+}
+
+#Hotelcol2 a {
+    max-width: 100px;
+    color: White;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#Hotelcol2 a:hover {
+    color: blue;
+}
+
+#Hotelcol2 {
+    max-width: 100px;
+    height: 50px;
+    background-color: black;
+}
+
+#Hotelcol3 a {
+    max-width: 100px;
+    color: Blue;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#Hotelcol3 a:hover {
+    color: red;
+}
+
+#Hotelcol3 {
+    max-width: 100px;
+    height: 50px;
+    background-color: black;
+}
+
+#Hotelcol4 a {
+    max-width: 100px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#Hotelcol4 a:hover {
+    color: blue;
+}
+
+#Hotelcol4 {
+    max-width: 100px;
+    height: 50px;
+    background-color: black;
+}
+
+#Hotelcol5 a {
+    max-width: 100px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#Hotelcol5 a:hover {
+    color: blue;
+}
+
+#Hotelcol5 {
+    max-width: 100px;
+    height: 50px;
+    background-color: black;
+}
+
+
+#Hotelcol {
+    max-width: 100px;
+    height: 50px;
+    background-color: black;
+}
+
+#Hoteldate {
+    height: 40px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#Checkinout {
+    font-size: 25px;
+    text-shadow: 2px 2px 5px green;
+}
+
+/* END */
+
+
+/* Cargo page Navebar */
+
+#Cargocol1 a {
+    max-width: 100px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#Cargocol1 a:hover {
+    color: blue;
+}
+
+#Cargocol1 {
+    max-width: 100px;
+    height: 50px;
+    background-color: black;
+}
+
+#Cargocol2 a {
+    max-width: 100px;
+    color: White;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#Cargocol2 a:hover {
+    color: blue;
+}
+
+#Cargocol2 {
+    max-width: 100px;
+    height: 50px;
+    background-color: black;
+}
+
+#Cargocol3 a {
+    max-width: 100px;
+    color: White;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#Cargocol3 a:hover {
+    color: blue;
+}
+
+#Cargocol3 {
+    max-width: 100px;
+    height: 50px;
+    background-color: black;
+}
+
+#Cargocol4 a {
+    max-width: 100px;
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#Cargocol4 a:hover {
+    color: red;
+}
+
+#Cargocol4 {
+    max-width: 100px;
+    height: 50px;
+    background-color: black;
+}
+
+#Cargocol5 a {
+    max-width: 100px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#Cargocol5 a:hover {
+    color: blue;
+}
+
+#Cargocol5 {
+    max-width: 100px;
+    height: 50px;
+    background-color: black;
+}
+
+/* END */
+
+
+
+
+
+
+
+#Bookform {
+    background: White;
+    box-shadow: 12px 12px 12px grey;
+}
+
+#Bookselect {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 2px solid black;
+}
+
+#Input{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 2px solid black;
+}
+
+#input{
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+#Bookh2 {
+    font-family: 'Arvo', serif;
+    text-shadow: 2px 2px 5px green;
+}
+
+
+#Bookrow3 {
+    height: 50px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#Bookrow4 {
+    color: white;
+    height: 50px;
+    width: 100%;
+    border-radius:5px ;
+    box-shadow: 12px 12px 12px grey;
+}
+
+form label {
+    font-size: 20px;
+}
+
+form label select {
+    font-size: 25px;
+}
+
+#button1 {
+    margin-top: 20px;
+    width: 450px;
+}
+
+#back {
+    background: url(../images/Ebg.jpg) fixed center;
+    background-attachment: fixed;
+    background-image: url(../images/Ebg.jpg);
+    background-position: center;
+}
+
+
+
+
+#planebg {
+    background: url(../images/airplanebg.jpg) fixed center;
+    background-attachment: fixed;
+    background-image: url(../images/airplanebg.jpg);
+    background-position: center;
+}
+
+#busbg {
+
+    background: url(../images/Busbg.jpg) fixed;
+    background-attachment: fixed;
+    background-image: url(../images/Busbg.jpg);
+    background-position: center;
+}
+
+
+
+
+/* FOOTER */
+
+#foot {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#foot a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    background-color: black;
+    font-size: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}

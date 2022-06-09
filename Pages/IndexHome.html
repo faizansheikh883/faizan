@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/Hstyle.css">
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!-- FONTs -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap"
+        rel="stylesheet">
+
+    <!-- GALLERY -->
+    <link rel="stylesheet" href="../js/jquery.flipster.min.css">
+
+    <!--AOS ANIMATION-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+</head>
+
+<body>
+    <header class="hero" id="headerH">
+        <nav class="navbar navbar-expand-lg sticky-top navbar-dark">
+            <div class="container-fluid">
+                <img id="img" src="./monus.png" alt="image" srcset="" width="180px" height="75px">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link " id="navHo" aria-current="page" href="./IndexHome.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " id="navGa" aria-current="page" href="./Gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navRe" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Regions
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="navDr">
+                                <li><a class="dropdown-item" href="./IndexEHome.html" id="navDo">East</a></li>
+                                <li><a class="dropdown-item" href="./IndexWHome.html" id="navDo">West</a></li>
+                                <li><a class="dropdown-item" href="./IndexNHome.html" id="navDo">North</a></li>
+                                <li><a class="dropdown-item" href="./IndexSHome.html" id="navDo">South</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " id="navAb" href="./About-us.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="navCo" href="./Contact-us.html">Contact</a>
+                        </li>
+                        <button id="bookbtn"><a href="./booking.html" id="booklink">Book Us</a></button>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <br><br><br><br><br><br><br>
+        <h2 id="homer">It's financialy support the world alot</h2>
+        <h1 id="homet">World Monuments has great history</h1>
+
+        <div class="container-fluid" id="con1">
+            <div class="row">
+                <div class="col-sm-6">
+                    <a href="./Landing Page.html">
+                        <button id="but">
+                            EXPLORE
+                        </button>
+                    </a>
+
+
+                </div>
+                <div class="col-sm-6">
+                    <a href="./Gallery.html">
+                        <button id="but1">GALLERY</button></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--What is Monument-->
+    <section id="whatim">
+        <h1 data-aos="zoom-in" id="whath1">
+            <b> WHAT IS MONUMENT ?</b>
+        </h1><br>
+        <p
+            style="text-align: center; color: white; font-size: 25px; margin-left: 20px; margin-right: 20px; text-shadow: 2px 2px 5px rgb(141, 158, 230); ">
+            A monument is a type of structure that was explicitly created to commemorate a person or event, or which
+            has become relevant to a social group its something built to honor a person or event from history
+            Monuments sculpture also means simply
+            anything made to commemorate the deads as a funerary monuments or other example of funerary Art.</p>
+        <div class="container-fluid" id="con2">
+            <div class="row">
+                <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1" id="concol1">
+                    <a href="https://en.wikipedia.org/wiki/Monument">
+                        <button data-aos="flip-down" id="Rdmbut">
+                            <span id="Rdmspan">READ MORE</span>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <h1 data-aos="fade-in" id="Ourmonu">
+            <b><span id="Ourspan">
+                    Our Best Monuments</span>
+            </b>
+        </h1>
+        <div class="container">
+            <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+                <a href="./mount rushmore/Mount Rushmore.html" style="text-decoration: none;">
+                    <div class="col">
+                        <div class="p-3" id="Gcol1">
+                            <h4 id="gallh4">Mount Rushmore</h4>
+                        </div>
+                    </div>
+                </a>
+
+
+                </a>
+                <a href="./Chichen Itza/Chichen Itza.html" style="text-decoration: none;">
+                    <div class="col">
+                        <div class="p-3" id="Gcol2">
+                            <h4 id="gallh4">Chichen Itza</h4>
+                        </div>
+                    </div>
+                </a>
+                <a href="./st mark/St Mark.html" style="text-decoration: none;">
+                    <div class="col">
+                        <div class="p-3" id="Gcol3">
+                            <h4 id="gallh4">ST Mark</h4>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="./Colosseum/Colosseum.html" style="text-decoration: none;">
+                    <div class="col">
+                        <div class="p-3" id="Gcol4">
+                            <h4 id="gallh4">Rome Henge</h4>
+                        </div>
+                    </div>
+                </a>
+                <a href="./rock of gibraltar/Rock of Gibraltar.html" style="text-decoration: none;">
+                    <div class="col">
+                        <div class="p-3" id="Gcol5">
+                            <h4 id="gallh4">Rock Of Gibraltar</h4>
+                        </div>
+                    </div>
+                </a>
+                <a href="./Taj Mahel/Taj Mahal.html" style="text-decoration: none;">
+                    <div class="col">
+                        <div class="p-3" id="Gcol6">
+                            <h4 id="gallh4">Taj Mahal</h4>
+                        </div>
+                    </div>
+                </a>
+                <a href="./Great Wall China/china-wall.html" style="text-decoration: none;">
+                    <div class="col">
+                        <div class="p-3" id="Gcol7">
+                            <h4 id="gallh4">Great Wall China</h4>
+                        </div>
+                    </div>
+                </a>
+                <a href="./Machu Picchu/Machu Picchu.html" style="text-decoration: none;">
+                    <div class="col">
+                        <div class="p-3" id="Gcol8">
+                            <h4 id="gallh4">Machu Picchu</h4>
+                        </div>
+                    </div>
+                </a>
+                <a href="./louvre museum/louvre museum.html" style="text-decoration: none;">
+                    <div class="col">
+                        <div class="p-3" id="Gcol9">
+                            <h4 id="gallh4">Louvre Meuseum</h4>
+                        </div>
+                    </div>
+                </a>
+                <a href="./london Eye/london Eye.html" style="text-decoration: none;">
+                    <div class="col">
+                        <div class="p-3" id="Gcol10">
+                            <h4 id="gallh4">London Eye</h4>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+
+    <!-- Slider -->
+    <section class="hero">
+        <h1 data-aos="zoom-out" style="text-align: center; font-family: 'Playfair Display', serif; font-size: 55px;">
+            <span1
+                style="color: rgb(247, 247, 247); font-family: 'Playfair Display', serif; text-shadow: 2px 2px 5px rgb(235, 227, 123); ">
+                Gallery Of </span1> <span
+                style=" font-family: 'Playfair Display', serif; text-shadow: 2px 2px 5px rgb(245, 252, 245); font-size: 77px;">Monuments</span>
+        </h1><br>
+
+        <div class="carousel">
+            <ul>
+                <a href="./Acropolis/Acropolis.html">
+                    <li><img src="./Acropolis/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+                        <h2 style="color: white; text-align: center;">Acropolis</h2>
+                    </li>
+                </a>
+                <a href="./al aqsa mosque/Al Aqsa Mosque.html">
+                    <li><img src="./al aqsa mosque/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Al Aqsa Mousque</h2>
+                    </li>
+                </a>
+                <a href="./Arc de Triomphe/Arc de Triomphe.html">
+                    <li><img src="./Arc de Triomphe/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Arc de Triomphe </h2>
+                    </li>
+                </a>
+                <a href="./atomium/Atomium.html">
+                    <li><img src="./atomium/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Atomium</h2>
+                    </li>
+                </a>
+                <a href="./Berlin Wall/Berlin Wall.html">
+                    <li><img src="./Berlin Wall/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Berlin Wall</h2>
+                    </li>
+                </a>
+                <a href="./Brandenburg Gate/Brandenburg Gate.html">
+                    <li><img src="./Brandenburg Gate/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Brandenburg Gate</h2>
+                    </li>
+                </a>
+                <a href="./Brooklyn Bridge/Brooklyn Bridge.html">
+                    <li><img src="./Brooklyn Bridge/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Brooklyn Bridge</h2>
+
+                    </li>
+                </a>
+                <a href="./Buckingham Palace/Buckingham Place.html">
+                    <li><img src="./Buckingham Palace/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Buckingham Palace</h2>
+                    </li>
+                </a>
+                <a href="./Burj Khalifa/Burj Khalifa.html">
+                    <li><img src="./Burj Khalifa/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Burj Khalifa</h2>
+                    </li>
+                </a>
+
+                <a href="./Chichen Itza/Chichen Itza.html">
+                    <li><img src="./Chichen Itza/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Chichen Itza</h2>
+                    </li>
+                </a>
+                <a href="./Christ the Redeemer/Christ the Redeemer.html">
+                    <li><img src="./Christ the Redeemer/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Christ The Redeemer</h2>
+                    </li>
+                </a>
+
+                <a href="./cn tower/Cn Tower.html">
+                    <li><img src="./cn tower/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Cn Tower</h2>
+                    </li>
+                </a>
+
+                <a href="./Cologne Cathedral/Cologne Catherdral.html">
+                    <li><img src="./Cologne Cathedral/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Cologne Cathedral</h2>
+                    </li>
+                </a>
+                <a href="./Colosseum/Colosseum.html">
+                    <li><img src="./Colosseum/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Colosseum</h2>
+                    </li>
+                </a>
+
+                <a href="./Easter Island Moai/Easter Island Moai.html">
+                    <li><img src="./Easter Island Moai/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Easter Island Moai</h2>
+                    </li>
+                </a>
+
+                <a href="./Edinburgh Castle/Edinburgh Castle.html">
+                    <li><img src="./Edinburgh Castle/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Edinburgh Castle</h2>
+                    </li>
+                </a>
+
+                <a href="./Eiffel Tower/Eiffel Tower.html">
+                    <li><img src="./Eiffel Tower/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Eiffel Tower</h2>
+                    </li>
+                </a>
+
+                <a href="./Florence/Florence.html">
+                    <li><img src="./Florence/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Florence</h2>
+                    </li>
+                </a>
+
+                <a href="./forbidden city/Forbidden City.html">
+                    <li><img src="./forbidden city/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Forbidden City</h2>
+                    </li>
+                </a>
+
+                <a href="./Great Pyramid of Giza/Greate Pyramid of Giza.html">
+                    <li><img src="./Great Pyramid of Giza/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Great Pyramid of Giza</h2>
+                    </li>
+                </a>
+
+                <a href="./Great Sphinx of Giza/Great Sphnix of Giza.html">
+                    <li><img src="./Great Sphinx of Giza/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Great Sphinx of Giza</h2>
+                    </li>
+                </a>
+
+                <a href="./Great Wall China/china-wall.html">
+                    <li><img src="./Great Wall China/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Great Wall China</h2>
+                    </li>
+                </a>
+
+                <a href="./helsinki cathedral/Helsinki Catherdral.html">
+                    <li><img src="./helsinki cathedral/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Helsinki Cathedral</h2>
+                    </li>
+                </a>
+
+                <a href="./hollywood sign/The History of the Hollywood Sign.html">
+                    <li><img src="./hollywood sign/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Hollywood Sign</h2>
+                    </li>
+                </a>
+                <a href="./leaning tower of pisa history/leaning tower of pisa history.html">
+                    <li><img src="./leaning tower of pisa history/img/1.jpg" alt="image" srcset="" width="400px"
+                            height="400px">
+
+                        <h2 style="color: white; text-align: center;">Leaning Tower Of Pisa History</h2>
+                    </li>
+                </a>
+                <a href="./london Eye/london Eye.html">
+                    <li><img src="./london Eye/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">London Eye</h2>
+                    </li>
+                </a>
+                <a href="./louvre museum/louvre museum.html">
+                    <li><img src="./louvre museum/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Louvre Museum</h2>
+                    </li>
+                </a>
+                <a href="./Machu Picchu/Machu Picchu.html">
+                    <li><img src="./Machu Picchu/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Machu Picchu</h2>
+                    </li>
+                </a>
+                <a href="./mount fuji/Mount Fuji.html">
+                    <li><img src="./mount fuji/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Mount Fuji</h2>
+                    </li>
+                </a>
+                <a href="./mount kilimanjoro/Mount Kilimanjaro.html">
+                    <li><img src="./mount kilimanjoro/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Mount Kilimanjaro</h2>
+                    </li>
+                </a>
+
+                <a href="./mount rushmore/Mount Rushmore.html">
+                    <li><img src="./mount rushmore/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Mount Rushmore</h2>
+                    </li>
+                </a>
+                <a href="./neuschwanstein castle/Neuschwanstein Castle.html">
+                    <li><img src="./neuschwanstein castle/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Neuschwanstein Castle</h2>
+                    </li>
+                </a>
+                <a href="./notre dame/notre dame.html">
+                    <li><img src="./notre dame/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Notre Dame</h2>
+                    </li>
+                </a>
+                <a href="./oriental pearl tower/Oriental Pearl Tower.html">
+                    <li><img src="./oriental pearl tower/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Oriental Pearl Tower</h2>
+                    </li>
+                </a>
+                <a href="./palace versaillies/Palace of Versailles.html">
+                    <li><img src="./palace versaillies/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Palace Of Versailles</h2>
+                    </li>
+                </a>
+                <a href="./petronas towers/Petronas Towers.html">
+                    <li><img src="./petronas towers/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Petronas Tower</h2>
+                    </li>
+                </a>
+                <a href="./potala palace/Potala Place.html">
+                    <li><img src="./potala palace/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Potala Palace</h2>
+                    </li>
+                </a>
+                <a href="./ponte vecchio/Ponte Vecchio.html">
+                    <li><img src="./ponte vecchio/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Ponte Vecchio</h2>
+                    </li>
+                </a>
+                <a href="./portofino/Pliny the Elder Referred to.html">
+                    <li><img src="./portofino/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Pliny The Elder</h2>
+                    </li>
+                </a>
+                <a href="./rialto bridge/Rialto Bridge.html">
+                    <li><img src="./rialto bridge/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Rialto Bridge</h2>
+                    </li>
+                </a>
+
+                <a href="./rock of gibraltar/Rock of Gibraltar.html">
+                    <li><img src="./rock of gibraltar/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Rock Of Gibraltar</h2>
+                    </li>
+                </a>
+
+                <a href="./santorini/Santorini.html">
+                    <li><img src="./santorini/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Santorini</h2>
+                    </li>
+                </a>
+
+                <a href="./st basil's cathedral/st basil's cathedral.html">
+                    <li><img src="./st basil's cathedral/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">St Basil's Cathedral</h2>
+                    </li>
+                </a>
+
+                <a href="./st mark/St Mark.html">
+                    <li><img src="./st mark/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">St Mark</h2>
+                    </li>
+                </a>
+
+                <a href="./stari most/Stari Most.html">
+                    <li><img src="./stari most/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Stari Most</h2>
+                    </li>
+                </a>
+
+                <a href="./stonehenge history/stonehenge history.html">
+                    <li><img src="./stonehenge history/img/1.jpeg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Stonehenge History</h2>
+                    </li>
+                </a>
+
+                <a href="./table mountain/table mountain.html">
+                    <li><img src="./table mountain/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Table Mountain</h2>
+                    </li>
+                </a>
+
+                <a href="./Taj Mahel/Taj Mahal.html">
+                    <li><img src="./Taj Mahel/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Taj Mahal</h2>
+                    </li>
+                </a>
+
+                <a href="./terracotta army/Terracotta Army.html">
+                    <li><img src="./terracotta army/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Terracotta Army</h2>
+                    </li>
+                </a>
+
+                <a href="./The Big Buddha/The Big Buddha.html">
+                    <li><img src="./The Big Buddha/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">The Big Buddha</h2>
+                    </li>
+                </a>
+
+                <a href="./trevi fountain/The History of Rome.html">
+                    <li><img src="./trevi fountain/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Tervi Fountain</h2>
+                    </li>
+                </a>
+
+                <a href="./Willis Tower/Willis Tower.html">
+                    <li><img src="./Willis Tower/img/1.jpg" alt="image" srcset="" width="400px" height="400px">
+
+                        <h2 style="color: white; text-align: center;">Willis Tower</h2>
+                    </li>
+                </a>
+            </ul>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
+
+    <footer id="foot " class="bd-footer  bg-black  ">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-3 mb-3 ">
+                    <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none "
+                        aria-label="Bootstrap ">
+                        <img style="margin-top: 30px; margin-left: 0px; " src="../images/monus.png" width="230 "
+                            height="100 " class="d-block me-2 " viewBox="0 0 118 94 " role="img ">
+                        <path fill-rule="evenodd " clip-rule="evenodd "
+                            d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28
+              14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214
+              5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884
+              0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z "
+                            fill="currentColor " />
+                        </svg>
+
+                    </a>
+                    <ul class="list-unstyled small text-muted ">
+                        <li class="mb-2 ">Designed and built by <a href="./About-us.html">Our team</a> with the
+                            help of our contributors.</li>
+                        <li class="mb-2 ">Code licensed <a target="_blank " rel="license noopener "> CopyRights 2022,
+                                docs CC BY A2112F2</a>.</li>
+
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 offset-lg-1 mb-3 " style="margin-top: 40px;margin-left: 80px; ">
+                    <h3 style="color:rgb(213, 213, 5) ">Links</h3>
+                    <ul class="list-unstyled ">
+                        <li class="mb-2 "><a href="./IndexHome.html ">Home</a></li>
+                        <li class="mb-2 "><a href="./About-us.html">About-Us</a></li>
+                        <li class="mb-2 "><a href="./Contact-us.html">Contact Us</a></li>
+                        <li class="mb-2 "><a href="./booking.html ">Booking</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3 " style="margin-top: 40px; margin-left: 80px;">
+                    <h3 style="color:rgb(213, 213, 5) ">Regions</h3>
+                    <ul class="list-unstyled ">
+                        <li class="mb-2 "><a href="./IndexEHome.html">East</a></li>
+                        <li class="mb-2 "><a href="./IndexWHome.html">West</a></li>
+                        <li class="mb-2 "><a href="./IndexNHome.html">North</a></li>
+                        <li class="mb-2 "><a href="./IndexSHome.html">South</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3 " style="margin-top: 40px;margin-left: 80px;">
+                    <h3 style="color:rgb(213, 213, 5) ">Booking Pages</h3>
+                    <ul class="list-unstyled ">
+                        <li class="mb-2 "><a href="./booking.html">Bus Services</a></li>
+                        <li class="mb-2 "><a href="./Flight.html">Flight Services</a></li>
+                        <li class="mb-2 "><a href="./Hotel.html">Hotel Services</a></li>
+                        <li class="mb-2 "><a href="./Cargo.html">Cargo Services</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<!-- GALLERY JS -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="../js/jquery.flipster.min.js"></script>
+
+
+<script>
+    $('.carousel').flipster({
+        style: 'carousel',
+        spacing: -0.3,
+    });
+</script>
+
+
+
+<!-- AOS ANIMATION -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        offset: 200,
+        duration: 1000,
+    });
+</script>
+
+
+<!-- NAV JS -->
+<script type="text/javascript">
+    window.addEventListener("scroll", function () {
+        var nav = document.querySelector("nav");
+        nav.classList.toggle("sticky", window.scrollY > 0);
+
+    })
+</script>
+
+</html>

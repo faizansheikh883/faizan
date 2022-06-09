@@ -1,0 +1,350 @@
+/*------------------------------------------------------------------
+    IMPORT FONTS
+-------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Paprika');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap');
+
+/*------------------------------------------------------------------
+    SKELETON
+-------------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'nautilus_pompiliusregular';
+    src: url('../fonts/nautilus-webfont.woff2') format('woff2'), url('../fonts/nautilus-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    color: #686868;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.80857;
+
+}
+
+#H1,
+#H2 {
+    letter-spacing: 0;
+    font-weight: normal;
+    position: relative;
+    padding: 0 0 10px 0;
+    font-weight: normal;
+    line-height: 120% !important;
+    color: #1f1f1f;
+    margin: 0
+}
+
+
+
+#H2 {
+    outline: rgb(250, 246, 246);
+    font-weight: bold;
+    font-size: 30px;
+    display: block;
+    color: rgb(243, 237, 237);
+    text-shadow: 5px 5px 5px rgb(29, 26, 242);
+}
+
+/*  BACKGROUND VIDEO */
+#BgVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -2;
+}
+
+/*------------------------------------------------------------------
+    BANNER AREA
+-------------------------------------------------------------------*/
+
+.banner {
+    background: url(../images/final.mp4);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    min-height: 100%;
+}
+
+.banner .container,
+.banner .banner-static,
+.banner .col-lg-12 {
+    height: 100%;
+}
+
+.banner-text {
+    display: table;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-cell {
+    display: table-cell;
+    vertical-align: middle;
+    color: #fff;
+}
+
+.banner-text h1 {
+    font-family: 'nautilus_pompiliusregular';
+    letter-spacing: 2.7px;
+    position: relative;
+    display: inline-block;
+    font-size: 74px;
+    line-height: 100px;
+    color: rgb(5, 5, 243);
+    padding-bottom: 0px;
+    padding-top: 100px;
+    text-shadow: 2px 2px 2px rgb(238, 235, 236);
+}
+
+.banner-text h2 {
+    font-family: 'nautilus_pompiliusregular';
+    letter-spacing: 2.7px;
+    position: relative;
+    font-size: 37px;
+    line-height: 100px;
+    padding-bottom: 25px;
+}
+
+.banner-text p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #ccc;
+    padding-bottom: 35px;
+    margin: 0px;
+}
+
+.hvr-underline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;
+    overflow: hidden;
+}
+
+.hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    background: red;
+    height: 2px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-center:hover:before,
+.hvr-underline-from-center:focus:before,
+.hvr-underline-from-center:active:before {
+    left: 0;
+    right: 0;
+}
+
+.banner-cell .mouse {
+    position: relative;
+    width: calc(16px * 2);
+    height: calc(31px * 2);
+    margin: 60px auto 20px;
+    background: none;
+    border: 2px solid white;
+    border-radius: calc(16px * 2);
+    z-index: 1;
+}
+
+.banner-cell .mouse:after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    width: calc(4px * 2);
+    height: calc(4px * 2);
+    background: none;
+    border: 2px solid white;
+    border-radius: 100%;
+    -webkit-animation-name: scrollWheel;
+    animation-name: scrollWheel;
+    -webkit-animation-duration: 1.4s;
+    animation-duration: 1.4s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
+    will-change: transform;
+}
+
+
+/* Button */
+.btn {
+    position: absolute;
+    padding: 10px 30px;
+    top: 60%;
+    font-size: 30px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgb(14, 1, 1);
+    background-color: #87b7ff2e;
+    color: #4977f5;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+a span:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, #0c002b, blue);
+    animation: animate1 1s linear infinite;
+}
+
+@keyframes animate1 {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+a span:nth-child(2) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(to bottom, #0c002b, blue);
+    animation: animate2 1s linear infinite;
+}
+
+@keyframes animate2 {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(100%);
+    }
+}
+
+a span:nth-child(3) {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to left, #0c002b, blue);
+    animation: animate3 1s linear infinite;
+}
+
+@keyframes animate3 {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+a span:nth-child(4) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(to top, #0c002b, blue);
+    animation: animate4 1s linear infinite;
+}
+
+@keyframes animate4 {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+.btn:hover {
+    color: rgb(19, 63, 242);
+    font-size: 30px;
+    box-shadow: 0px 0px 30px #87b7ff;
+}
+
+.btn span.anim1 {
+    position: absolute;
+    display: block;
+    width: 0px;
+    height: 0px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: #87b7ff;
+    transition: width 0.5s, heigth 0.5s;
+    z-index: -1;
+}
+
+.btn:hover span.anim1 {
+    width: 450px;
+    height: 450px;
+
+}
+
+#btn-animal {
+
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: fixed;
+    left: 570px;
+
+}
+
+@media (max-width:1900px) {
+
+    #btn-animal {
+
+        position: relative;
+        left: 30px;
+        margin-right: 78px;
+        justify-content: center;
+    }
+}
+
+@media (max-width:100px) {
+
+    #btn-animal {
+
+        margin-right: 80px;
+    }
+}

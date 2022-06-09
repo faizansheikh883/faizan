@@ -1,0 +1,507 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #111;
+}
+
+#BgVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    z-index: 1;
+}
+
+.container .card1 {
+    position: relative;
+    height: 200px;
+    width: 280px;
+    margin: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 3px solid blueviolet;
+    backdrop-filter: blur(3px);
+    background: url(../images/3D\ EAST.png);
+    background-size: cover;
+}
+
+.card1:hover {
+    background: none;
+    transition: 0s;
+}
+
+.container .card1 .Content {
+    padding: 0px;
+    text-align: center;
+    transition: 0.5s;
+    transform: translateY(100px);
+    opacity: 0;
+    border-radius: 15px;
+
+}
+
+.container .card1:hover .Content {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+
+.container .card1 .Content p {
+    font-size: 1em;
+    padding: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.container .card1 .Content a {
+    position: relative;
+    padding: 5px;
+    margin: 0px 15px;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 2px;
+    font-size: 19px;
+    transition: 0.2s;
+    color: black;
+    font-weight: bold;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px blue;
+    background: white;
+}
+
+
+
+.container .card1 .Content a:hover {
+    color: #111;
+    background: none;
+}
+
+.container .card1 .Content a::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-top: 3px solid blue;
+    border-left: 3px solid blue;
+    transition: 0.2s;
+}
+
+
+
+.container .card1 .Content a::after {
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-bottom: 3px solid blue;
+    border-right: 3px solid blue;
+    transition: 0.2s;
+}
+
+
+.container .card1 .Content a:nth-child(1) {
+    filter: hue-rotate(100deg);
+}
+
+.container .card1 .Content a:nth-child(4) {
+    filter: hue-rotate(200deg);
+}
+
+.container .card1 .Content a:hover::before {
+    width: 97%;
+    height: 90%;
+    transition-delay: 0.2s;
+}
+
+.container .card1 .Content a:hover::after {
+    width: 97%;
+    height: 90%;
+    transition-delay: 0.2s;
+}
+
+
+
+/* WEST CARD2 */
+
+
+.container .card2 {
+    position: relative;
+    height: 200px;
+    width: 280px;
+    margin: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 3px solid blueviolet;
+    backdrop-filter: blur(3px);
+    background: url(../images/3D\ WEST.png);
+    background-size: cover;
+}
+
+.card2:hover {
+    background: none;
+    transition: 0s;
+}
+
+.container .card2 .Content {
+    padding: 0px;
+    text-align: center;
+    transition: 0.5s;
+    transform: translateY(100px);
+    opacity: 0;
+    border-radius: 15px;
+
+}
+
+.container .card2:hover .Content {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+
+.container .card2 .Content p {
+    font-size: 1em;
+    padding: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.container .card2 .Content a {
+    position: relative;
+    padding: 5px;
+    margin: 0px 15px;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 2px;
+    font-size: 19px;
+    transition: 0.2s;
+    color: black;
+    font-weight: bold;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px blue;
+    background: white;
+}
+
+
+
+.container .card2 .Content a:hover {
+    color: #111;
+    background: none;
+}
+
+.container .card2 .Content a::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-top: 3px solid blue;
+    border-left: 3px solid blue;
+    transition: 0.2s;
+}
+
+
+
+.container .card2 .Content a::after {
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-bottom: 3px solid blue;
+    border-right: 3px solid blue;
+    transition: 0.2s;
+}
+
+
+.container .card2 .Content a:nth-child(1) {
+    filter: hue-rotate(100deg);
+}
+
+.container .card2 .Content a:nth-child(4) {
+    filter: hue-rotate(200deg);
+}
+
+.container .card2 .Content a:hover::before {
+    width: 97%;
+    height: 90%;
+    transition-delay: 0.3s;
+}
+
+.container .card2 .Content a:hover::after {
+    width: 97%;
+    height: 90%;
+    transition-delay: 0.3s;
+}
+
+
+
+
+/* NORTH CARD3*/
+
+
+
+
+.container .card3 {
+    position: relative;
+    height: 200px;
+    width: 280px;
+    margin: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 3px solid blueviolet;
+    backdrop-filter: blur(3px);
+    background: url(../images/3D\ NORTH.png);
+    background-size: cover;
+}
+
+.card3:hover {
+    background: none;
+    transition: 0s;
+}
+
+.container .card3 .Content {
+    padding: 0px;
+    text-align: center;
+    transition: 0.5s;
+    transform: translateY(100px);
+    opacity: 0;
+    border-radius: 15px;
+
+}
+
+.container .card3:hover .Content {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+
+.container .card3 .Content p {
+    font-size: 1em;
+    padding: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.container .card3 .Content a {
+    position: relative;
+    padding: 5px;
+    margin: 0px 15px;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 2px;
+    font-size: 19px;
+    transition: 0.2s;
+    color: black;
+    font-weight: bold;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px blue;
+    background: white;
+}
+
+
+
+.container .card3 .Content a:hover {
+    color: #111;
+    background: none;
+}
+
+.container .card3 .Content a::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-top: 3px solid blue;
+    border-left: 3px solid blue;
+    transition: 0.2s;
+}
+
+
+
+.container .card3 .Content a::after {
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-bottom: 3px solid blue;
+    border-right: 3px solid blue;
+    transition: 0.2s;
+}
+
+
+.container .card3 .Content a:nth-child(1) {
+    filter: hue-rotate(100deg);
+}
+
+.container .card3 .Content a:nth-child(4) {
+    filter: hue-rotate(200deg);
+}
+
+.container .card3 .Content a:hover::before {
+    width: 97%;
+    height: 90%;
+    transition-delay: 0.3s;
+}
+
+.container .card3 .Content a:hover::after {
+    width: 97%;
+    height: 90%;
+    transition-delay: 0.3s;
+}
+
+
+
+
+/* SOUTH CARD4 */
+
+
+
+
+.container .card4 {
+    position: relative;
+    height: 200px;
+    width: 280px;
+    margin: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 3px solid blueviolet;
+    backdrop-filter: blur(3px);
+    background: url(../images/3D\ SOUTH.png);
+    background-size: cover;
+}
+
+.card4:hover {
+    background: none;
+    transition: 0s;
+}
+
+.container .card4 .Content {
+    padding: 0px;
+    text-align: center;
+    transition: 0.5s;
+    transform: translateY(100px);
+    opacity: 0;
+    border-radius: 15px;
+
+}
+
+.container .card4:hover .Content {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+
+.container .card4 .Content p {
+    font-size: 1em;
+    padding: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.container .card4 .Content a {
+    position: relative;
+    padding: 5px;
+    margin: 0px 15px;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 2px;
+    font-size: 19px;
+    transition: 0.2s;
+    color: black;
+    font-weight: bold;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px blue;
+    background: white;
+}
+
+
+
+.container .card4 .Content a:hover {
+    color: #111;
+    background: none;
+}
+
+.container .card4 .Content a::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-top: 3px solid blue;
+    border-left: 3px solid blue;
+    transition: 0.2s;
+}
+
+
+
+.container .card4 .Content a::after {
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-bottom: 3px solid blue;
+    border-right: 3px solid blue;
+    transition: 0.2s;
+}
+
+
+.container .card4 .Content a:nth-child(1) {
+    filter: hue-rotate(100deg);
+}
+
+.container .card4 .Content a:nth-child(4) {
+    filter: hue-rotate(250deg);
+}
+
+.container .card4 .Content a:hover::before {
+    width: 97%;
+    height: 90%;
+    transition-delay: 0.3s;
+}
+
+.container .card4 .Content a:hover::after {
+    width: 97%;
+    height: 90%;
+    transition-delay: 0.3s;
+}

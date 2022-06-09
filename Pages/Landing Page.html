@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regions</title>
+    <link rel="stylesheet" href="../css/RgCard.css">
+</head>
+
+<body>
+    <video autoplay muted loop id="BgVideo">
+        <source src="../images/Background2.mp4" type="video/mp4">
+      </video>
+    <table style="text-align: center;z-index: 2;">
+        <tr>
+            <td><h1 style="color: White;font-size: 50px;font-weight: bolder;text-shadow: 1px 1px 1px blue, 1px 2px 1px blue, 1px 3px 1px blue, 1px 4px 1px blue, 1px 5px 1px #353535, 1px 6px 1px #353535, 1px 7px 1px #353535, 1px 8px 1px #353535, 1px 9px 1px #353535, 1px 10px 1px #353535, 1px 18px 6px rgba(16, 16, 16, 0.4), 1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2), 1px 30px 60px rgba(16, 16, 16, 0.4)">Select The Region</h1></td>
+        </tr>
+        <tr>
+            <td>    <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="card1">
+                            <div class="Content ">
+                                <h1>EAST</h1>
+                                <p>The direction towards the point of the horizon where the sun rises at the equinoxes. </p>
+                                <a href="./IndexEHome.html">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col ">
+                        <div class="card2 ">
+                            <div class="Content">
+                                <h1>WEST</h1>
+                                <p>The direction towards the point of the horizon where the sun sets at the equinoxes. </p>
+                                <a href="./IndexWHome.html">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col ">
+                        <div class="card3 ">
+                            <div class="Content ">
+                                <h1>NORTH</h1>
+                                <p>North is one of the four compass points or cardinal directions. North is the opposite of South</p>
+                                <a href="./IndexNHome.html">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col ">
+                        <div class="card4 ">
+                            <div class="Content ">
+                                <h1>SOUTH</h1>
+                                <p>South is the opposite of north and is perpendicular to east and west. South is opposite to North </p>
+                                <a href="./IndexSHome.html">Explore</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </td>
+        </tr>
+    </table>
+
+    <!--Cards-->
+
+
+    <script type="text/javascript " src="../js/vanilla-tilt.js"></script>
+
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card1, .card2, .card3 ,.card4 "), {
+            max: 40,
+            speed: 400,
+            
+        });
+    </script>
+
+</body>
+
+</html>

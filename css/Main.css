@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: josefin sans-serif;
+}
+
+/* NAV */
+#img {
+    margin-right: 165px;
+}
+
+#navHo {
+    color: white;
+    font-size: 24px;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+#navGa {
+    color: white;
+    font-size: 24px;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+#navRe {
+    color: white;
+    font-size: 24px;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+#navDr {
+    background: rgba(0, 0, 0, 0.733);
+    font-size: 18px;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+#navDo {
+    background: rgba(0, 0, 0, 0.733);
+    color: white;
+    font-size: 18px;
+}
+
+#navDo:hover{
+    color: red;
+}
+
+#navAb {
+    color: white;
+    font-size: 24px;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+#navCo {
+    color: white;
+    font-size: 24px;
+    margin-left: 18px;
+    margin-right: 165px;
+}
+
+#bookbtn {
+    transition: 0.4s;
+    font-size: 24px;
+    background: red;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    border: 2px solid white;
+    text-decoration: none;
+}
+
+#bookbtn:hover {
+    border: 2px solid white;
+    background: rgb(7, 245, 98);
+    color: white;
+    box-shadow: 0px 2px 6px 0px rgba(7, 245, 98), 0px 2px 6px 0px rgb(7, 245, 98);
+}
+
+#booklink {
+    text-decoration: none;
+    color: white;
+}
+
+#button1 {
+    height: 50px;
+    font-size: 24px;
+    margin-left: 34px;
+    margin-top: 20px;
+    transition-duration: 0.4s;
+    background-color: #ea1538;
+    border-radius: 10px;
+    width: 140px;
+    border: 2px solid #fffefd;
+    text-align: center;
+    color: white;
+}
+
+#button1:hover {
+    border: 2px solid #ffffff;
+    background: rgb(7, 245, 98);
+    color: rgb(255, 250, 250);
+}
+
+/* FOOTER */
+
+#foot {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#foot a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    background-color: black;
+    font-size: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+/* _______________ */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    outline: 0 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p {
+    word-wrap: break-word;
+}
+
+
+/* - Padding/Margin */
+
+.no-padding {
+    padding: 0;
+}
+
+.no-left-padding {
+    padding-left: 0;
+}
+
+.no-right-padding {
+    padding-right: 0;
+}
+
+.no-top-padding {
+    padding-top: 0;
+}
+
+.no-bottom-padding {
+    padding-bottom: 0;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.no-left-margin {
+    margin-left: 0;
+}
+
+.no-right-margin {
+    margin-right: 0;
+}
+
+.no-top-margin {
+    padding-top: 0;
+}
+
+.no-bottom-margin {
+    margin-bottom: 0;
+}
+
+
+/* - OW pull-left/pull-right */
+
+.ow-pull-left {
+    float: left;
+}
+
+.ow-pull-right {
+    float: right;
+}
+
+
+/* -- Section Padding */
+
+.section-padding {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.padding-10 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.padding-20 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.padding-30 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.padding-40 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.padding-50 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.padding-60 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.padding-70 {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.padding-80 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.padding-90 {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.padding-100 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.main-container {
+    width: 1920px;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+

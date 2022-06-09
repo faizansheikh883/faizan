@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Booking</title>
+
+
+    <!-- TRANSITTION -->
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="./css/Bstyle.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        -->
+
+    <!-- FONT LINKS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/Bstyle.css">
+
+</head>
+
+<body style="background-color: rgb(245, 245, 245); font-family: 'Times New Roman', Times, serif;">
+
+    <!-- NAVBAR -->
+    <div class="container-fluid" id="Booknav">
+        <div class="row" id="Booknavrow">
+
+            <div class="col" id="Flightcol1">
+                <a href="./booking.html" class="link">Bus</a>
+            </div>
+            <div class="col" id="Flightcol2">
+                <a href="./Flight.html" class="link">Flight</a>
+            </div>
+            <div class="col" id="Flightcol3">
+                <a href="./Hotel.html" class="link">Hotel</a>
+            </div>
+            <div class="col" id="Flightcol4">
+                <a href="./Cargo.html" class="link">Cargo</a>
+            </div>
+            <div class="col" id="Flightcol5">
+                <a href="./IndexHome.html" class="link">Home</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- FORM -->
+    <div class="container overflow-hidden" id="Bookform">
+        <div class=" row">
+            <h2 id="Bookh2"><b> Search
+                    and Book Bus Tickets </b>
+            </h2>
+            <div class="col-sm-12 col-md-12 col-lg-6 p-2">
+                <div class="row p-2">
+                    <div class="col-sm-3 col-md-4 col-lg-4 p-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Round Trip
+                        </label>
+                    </div>
+                    <div class="col-sm-3 col-md-4 col-lg-4 p-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            One Way
+                        </label>
+                    </div>
+                    <div class="col-sm-3 col-md-4 col-lg-4 p-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault3">
+                        <label class="form-check-label" for="flexRadioDefault3">
+                            Multi-City
+                        </label>
+                    </div>
+                </div>
+
+
+                <div class=" row g-0 row-sm-2">
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                        <div class="row-sm-6 row-md-6 row-lg-6 p-2">
+                            <select required class="form-select" aria-label="Default select example" id="Bookselect">
+                                <option selected>Departure e.g City or Airport</option>
+                                <option value="1">New York</option>
+                                <option value="2"> Los Angeles, California</option>
+                                <option value="3">Islambad</option>
+                                <option value="4">Chicago, Illinois</option>
+                                <option value="5">Houston, Texas</option>
+                                <option value="6">Phoenix, Arizona</option>
+                                <option value="7">San Diego, California</option>
+                                <option value="8"> Columbus, Ohio</option>
+                                <option value="9">Washington, DC</option>
+                                <option value="10">Boston, Massachusetts</option>
+                                <option value="11">Albuquerque, N.M.</option>
+                                <option value="12">Colorado Springs, Colo.</option>
+                            </select>
+                        </div>
+                        <div class="row-sm-6 row-md-6 row-lg-6 p-2">
+                            <input type="number" name="" id="Input" placeholder="Adult">
+                        </div>
+                        <div class="row-sm-6 row-md-6 row-lg-6 p-2">
+                            <input type="number" name="" id="Input" placeholder="Kids">
+                        </div>
+                        <div class="row-sm-6 row-md-6 row-lg-6 p-2">
+                            <input type="number" name="" id="Input" placeholder="Infants">
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                        <div class="row-sm-6 row-md-6 row-lg-6 p-2">
+                            <select required class="form-select" aria-label="Default select example" id="Bookselect">
+                                <option selected>Arrival e.g City or Airport</option>
+                                <option value="1">New York</option>
+                                <option value="2"> Los Angeles, California</option>
+                                <option value="3">Islambad</option>
+                                <option value="4">Chicago, Illinois</option>
+                                <option value="5">Houston, Texas</option>
+                                <option value="6">Phoenix, Arizona</option>
+                                <option value="7">San Diego, California</option>
+                                <option value="8"> Columbus, Ohio</option>
+                                <option value="9">Washington, DC</option>
+                                <option value="10">Boston, Massachusetts</option>
+                                <option value="11">Albuquerque, N.M.</option>
+                                <option value="12">Colorado Springs, Colo.</option>
+                            </select>
+                        </div>
+                        <div class="row-sm-6 row-md-6 row-lg-6 p-2" id="input">
+                            <input class="form-check-input" type="radio" name="RadioDefault1" id="RadioDefault1">
+                            <label class="form-check-label" for="RadioDefault1">
+                                Economy
+                            </label>
+                        </div>
+                        <div class="row-sm-6 row-md-6 row-lg-6 p-2" id="input">
+                            <input class="form-check-input" type="radio" name="RadioDefault1" id="RadioDefault2">
+                            <label class="form-check-label" for="RadioDefault2">
+                                Premium Economy
+                            </label>
+                        </div>
+                        <div class="row-sm-6 row-md-6 row-lg-6 p-2" id="input">
+                            <input class="form-check-input" type="radio" name="RadioDefault1" id="RadioDefault3">
+                            <label class="form-check-label" for="RadioDefault3">
+                                Business
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class=" row g-0 row-sm-2">
+                    <button type="button" id="Bookrow4" class="btn-primary btn-outline-success">
+                        Book
+                    </button>
+                </div>
+
+            </div>
+
+
+
+
+            <div class="col-sm-12 col-md-12 col-lg-6 p-2" id="bookcol2">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../images/flight1.png" class="d-block w-100" alt="..."
+                                style="margin-top: 7px; height: 330px;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/flight2.jpg" class="d-block w-100" alt="..."
+                                style="margin-top: 7px; margin-right: 5px; height: 330px;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/flight3.png" class="d-block w-100" alt="..."
+                                style="margin-top: 7px; margin-right: 5px; height: 330px;">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- DIV -->
+    <div class="container"><br><br>
+        <h3 data-aos="zoom-out"
+            style="font-family: 'Roboto Condensed', sans-serif; font-size: 35px; text-transform: uppercase; font-family: 'Bebas Neue', cursive; text-shadow: 2px 2px 5px green;">
+            Looking for Flight Booking Online?</h3>
+        <p style="font-family: 'Roboto Condensed', sans-serif; font-size: 16px;">Providing a pool of bus vendors,
+            bookme
+            entertains its customers with exceptional bus online ticketing experience. One can make the right travel
+            decision and arrangements for a great journey. Pakistan’s largest online bus ticketing site has driven
+            flight e-ticketing service to new heights with 150+ bus companies on-board. Furthermore, Bookme covers
+            all
+            the major bus routes of Pakistan. In short, bookme is the complete solution for your online bus tickets.
+        </p>
+
+        <div><br><br>
+            <div class="row">
+                <div class="col-sm-2">
+                    <a href="https://www.airblue.com/">
+                        <img data-aos="fade-up" src="../images/flogo1.png" alt="" srcset=""
+                            style="box-shadow: 12px 12px 12px grey; width: 170px; height: 150px;">
+                    </a>
+
+                </div>
+                <div class="col-sm-2">
+                    <a href="https://www.sereneair.com/">
+                        <img data-aos="fade-down" src="../images/download-removebg-preview.png" alt="" srcset=""
+                            style="box-shadow: 12px 12px 12px grey; width: 160px; height: 150px;">
+                    </a>
+                </div>
+                <div class="col-sm-2">
+                    <a href="https://www.piac.com.pk/">
+                        <img data-aos="fade-up" src="../images/ppia.png" alt="" srcset="" width="160px" height="150px"
+                            style="box-shadow: 12px 12px 12px grey;">
+                    </a>
+                </div>
+                <div class="col-sm-2">
+                    <a href="https://www.esky.co.uk/airlines/al/0jz/skyways">
+                        <img data-aos="fade-down" src="../images/logo4.jpg" width="160px" height="150px" alt=""
+                            srcset="" style="box-shadow: 12px 12px 12px grey;">
+                    </a>
+                </div>
+                <div class="col-sm-2">
+                    <a
+                        href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiuxIOpipn3AhXU7e0KHfkjDFoYABAAGgJkZw&ohost=www.google.com&cid=CAASJORoUABZ87wQ9DddTnrgkFUaDcBJJQFQJ0KRrllekZfCKKnFfg&sig=AOD64_2_nEI0p5zEzElIfm8cVnBygbK_AA&q&adurl&ved=2ahUKEwjQ3Pqoipn3AhVOilwKHRkdCWMQ0Qx6BAgDEAE">
+                        <img data-aos="fade-up" src="../images/FlightLogoEm.png" width="170px" height="150px" alt=""
+                            srcset="" style="box-shadow: 12px 12px 12px grey;">
+                    </a>
+                </div>
+                <div class="col-sm-2">
+                    <a href="https://www.singaporeair.com/">
+                        <img data-aos="fade-down" src="../images/flightlogosinga.png" width="160px" height="150px"
+                            alt="" srcset="" style="box-shadow: 12px 12px 12px grey;">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container"><br><br>
+            <h3 data-aos="zoom-out"
+                style="font-size: 35px; font-family: 'Bebas Neue', cursive; text-shadow: 2px 2px 5px green;">Fly
+                Well
+            </h3>
+            <p style="font-family: 'Roboto Condensed', sans-serif; font-size: 15px;">Providing a pool of bus
+                vendors,
+                bookme entertains its customers with exceptional bus online ticketing experience. One can make the
+                right
+                travel decision and arrangements for a great journey. Pakistan’s largest online bus ticketing site
+                has
+                driven bus e-ticketing service to new heights with 150+ bus companies on-board. Furthermore, Bookme
+                covers all the major bus routes of Pakistan. In short, bookme is the complete solution for your
+                online
+                bus tickets.</p>
+        </div>
+
+        <div class="container"><br>
+            <h3 data-aos="zoom-out"
+                style="font-size: 35px; font-family: 'Bebas Neue', cursive; text-shadow: 2px 2px 5px green;">Manage
+                Your
+                Airline Booking</h3>
+            <p style="font-family: 'Roboto Condensed', sans-serif; font-size: 15px; ">Whatever is your destination,
+                we
+                are at your service.Bookme provides online bus bookings for various major routes in Pakistan i.e.
+                Lahore, Karachi, Islamabad, Multan, Faisalabad and Rawalpindi etc. You can easily find the best
+                prices
+                for online
+                tickets to your destination through Bookme.</p>
+        </div>
+
+        <div class="container"><br>
+            <h3 data-aos="zoom-out"
+                style="font-size: 35px; font-family: 'Bebas Neue', cursive; text-shadow: 2px 2px 5px green;">Fly
+                Wherever You Want
+            </h3>
+            <p style="font-family: 'Roboto Condensed', sans-serif; font-size: 15px; ">Bookme has satisfied its
+                customers
+                with authentic online flight bookings for both domestic and international destinations. </p>
+        </div>
+
+
+    </div>
+    <br>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+
+                <h3 data-aos="zoom-out "
+                    style="margin-left: 10px; font-family: 'Bebas Neue', cursive; text-shadow: 2px 2px 5px green; ">
+                    How
+                    to Book Flight Tickets Online ?</h3>
+                <br>
+                <ol style="margin-left: 10px; font-family: 'Roboto Condensed', sans-serif; ">
+                    <li>Go to the flights menu.</li>
+
+                    <li>Enter your travel details.</li>
+
+                    <li>Select your desired airline.
+                    </li>
+
+                    <li>Provide your contact details.
+                    </li>
+
+                    <li>Checkout your purchase.
+                    </li>
+
+                    <li>You have to mention whether you are vaccinated or not</li>
+
+                </ol>
+
+                <div class="container ">
+                    <h3 data-aos="zoom-out "
+                        style="margin-left: 10px; font-family: 'Bebas Neue', cursive; text-shadow: 2px 2px 5px green; ">
+                        Major international destinations include ?</h3>
+                    <br>
+                    <ul style="margin-left: 20px; font-family: 'Roboto Condensed', sans-serif; ">
+                        <li>Dubai</li>
+
+                        <li>Turkey</li>
+
+                        <li>Maldives
+                        </li>
+
+                        <li>United Kingdom
+
+                        </li>
+
+
+                    </ul>
+
+                </div>
+
+
+                <div class="container ">
+                    <h3 data-aos="zoom-out "
+                        style="margin-left: 10px; font-family: 'Bebas Neue', cursive; text-shadow: 2px 2px 5px green; ">
+                        Major Domestic Destinations:
+                    </h3>
+                    <br>
+                    <ul style="margin-left: 20px; font-family: 'Roboto Condensed', sans-serif; ">
+                        <li>Karachi</li>
+
+                        <li>Islamabad</li>
+
+                        <li>Lahore
+                        </li>
+
+                        <li>Multan
+
+                        </li>
+
+                        <li>Sialkot
+
+                        </li>
+
+
+
+
+                    </ul>
+
+                </div>
+
+            </div>
+            <div class="col-md-6" style="margin-left: -55px;">
+                <img data-aos="fade-up-right" src="../images/airplane.png" width="650px" height="400px" alt=""
+                    srcset="">
+            </div>
+
+        </div>
+    </div>
+
+    <br><br>
+
+    <!-- EMAIL -->
+    <div id="planebg" style="margin-top: 50px;  padding-top: 100px; padding-bottom: 100px;">
+        <h2
+            style="text-align: center; font-family: 'Bebas Neue', cursive; text-shadow: 2px 2px 5px green; font-size: 40px; ">
+            Be the first to recieve our best discounts <br> Subscribe to our newsletter</h2>
+        <div data-aos="fade-up " style="text-align: center; margin-top: 35px; ">
+            <input type="email " name=" " id=" " placeholder="Enter Your E-Mail " size="60px ">
+
+            <button type="button " style="width: 130px; height: 30px; " class="btn-primary btn-outline-grey ">Subscribe
+                Now</button>
+        </div>
+    </div>
+
+    <br><br><br>
+    <!-- FIXED BG -->
+
+
+
+    <!-- CONTAINER -->
+
+    <div class="container " style="background-color: rgb(228, 228, 228); ">
+        <div class="row ">
+            <div class="col-md-6 " style="margin-top: 60px; padding-left: 100px; ">
+                <h2 style="font-family: 'Bebas Neue', cursive; text-shadow: 2px 2px 5px green; font-size: 38px; ">
+                    Get
+                    amazing deals and bundles <br> on Our Application </h2><br>
+                <ul style="color: grey; font-family: 'Roboto Condensed', sans-serif; ">
+                    <li>Multiple online booking options for application users.</li>
+                    <li>Get the information related to your online ticket bookings.</li>
+                    <li>Get points on your online bookings to redeem them later.</li>
+                </ul>
+
+                <img data-aos="fade-right " src="../images/play.png " alt=" " srcset=" " width="140px " height="60px ">
+
+                <img data-aos="fade-left " src="../images/play2.png " alt=" " srcset=" " width="140px " height="60px "
+                    style="margin-left: 20px; ">
+                <br><br>
+                <p style="color: grey; ">Or scan QR to get our app on your phone.</p>
+                <img src="../images/chart.png " alt=" " srcset=" " width="80px " height="80px "
+                    style="margin-left: -20px; margin-bottom: 10px; box-shadow: 12px 12px 12px grey; ">
+
+                <input style="margin-left: 10px; " type="tel " name="bt " id="bt " placeholder="0300-0000000 " required>
+
+
+                <button type="button " name="bt " id="bt " style="width: 110px; height: 30px; "
+                    class="btn-primary btn-outline-grey ">Send Text</button>
+            </div>
+            <div class="col-md-6 ">
+                <img src="../images/moblogo.png " alt=" " srcset=" " width="260px " height="450px "
+                    style="margin-left: 90px; " data-aos="zoom-in-left ">
+            </div>
+        </div>
+    </div>
+
+
+    <br>
+
+    <!-- FOOTER -->
+
+    <footer id="foot " class="bd-footer  bg-black  ">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-3 mb-3 ">
+                    <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none " href="/ "
+                        aria-label="Bootstrap ">
+                        <img style="margin-top: 30px; margin-left: 0px; " src="../images/monus.png " width="230 "
+                            height="100 " class="d-block me-2 " viewBox="0 0 118 94 " role="img ">
+                        <path fill-rule="evenodd " clip-rule="evenodd "
+                            d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28
+              14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214
+              5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884
+              0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z "
+                            fill="currentColor " />
+                        </svg>
+
+                    </a>
+                    <ul class="list-unstyled small text-muted ">
+                        <li class="mb-2 ">Designed and built by <a href="/docs/5.1/about/team/ ">Our team</a> with
+                            the
+                            help of our contributors.</li>
+                        <li class="mb-2 ">Code licensed <a href="https://github.com/twbs/bootstrap/blob/main/LICENSE "
+                                target="_blank " rel="license noopener "> CopyRights 2022</a>, docs <a href="https://creativecommons.org/licenses/by/3.0/
+              " target="_blank " rel="license noopener ">CC BY 3.0</a>.</li>
+
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 offset-lg-1 mb-3 " style="margin-top: 40px;margin-left: 80px; ">
+                    <h3 style="color:rgb(213, 213, 5) ">Links</h3>
+                    <ul class="list-unstyled ">
+                        <li class="mb-2 "><a href="./IndexHome.html ">Home</a></li>
+                        <li class="mb-2 "><a href="./About-us.html">About-Us</a></li>
+                        <li class="mb-2 "><a href="./Contact-us.html">Contact Us</a></li>
+                        <li class="mb-2 "><a href="./booking.html ">Booking</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3 " style="margin-top: 40px; margin-left: 80px;">
+                    <h3 style="color:rgb(213, 213, 5) ">Regions</h3>
+                    <ul class="list-unstyled ">
+                        <li class="mb-2 "><a href="./IndexEHome.html">East</a></li>
+                        <li class="mb-2 "><a href="./IndexWHome.html">West</a></li>
+                        <li class="mb-2 "><a href="./IndexNHome.html">North</a></li>
+                        <li class="mb-2 "><a href="./IndexSHome.html">South</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3 " style="margin-top: 40px;margin-left: 80px;">
+                    <h3 style="color:rgb(213, 213, 5) ">Booking Pages</h3>
+                    <ul class="list-unstyled ">
+                        <li class="mb-2 "><a href="./booking.html">Bus Services</a></li>
+                        <li class="mb-2 "><a href="./Flight.html">Flight Services</a></li>
+                        <li class="mb-2 "><a href="./Hotel.html">Hotel Services</a></li>
+                        <li class="mb-2 "><a href="./Cargo.html">Cargo Services</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js "></script>
+    <script>
+        AOS.init({
+            offset: 100,
+            duration: 2000,
+        });
+    </script>
+
+</body>
+
+</html>

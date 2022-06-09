@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>NORTH GALLERY</title>
+    <meta content="" name="descriptison">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="../vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="../vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="../vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../vendor/aos/aos.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="../css/Gstyle.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/Hstyle.css">
+    <style>
+            @media(max-width:1376px) {
+      #img {
+        margin-right: 165px;
+      }
+
+      #navCo {
+        color: white;
+        font-size: 24px;
+        margin-left: 14px;
+        margin-right: 165px;
+      }
+    }
+
+    @media(max-width:1368px) {
+      #img {
+        margin-right: 150px;
+      }
+
+      #navCo {
+        color: white;
+        font-size: 24px;
+        margin-left: 14px;
+        margin-right: 150px;
+      }
+    }
+
+    @media(max-width:1364px) {
+      #img {
+        margin-right: 145px;
+      }
+
+      #navCo {
+        color: white;
+        font-size: 24px;
+        margin-left: 14px;
+        margin-right: 145px;
+      }
+    }
+
+    @media(max-width:1312px) {
+      #img {
+        margin-right: 130px;
+      }
+
+      #navCo {
+        color: white;
+        font-size: 24px;
+        margin-left: 14px;
+        margin-right: 130px;
+      }
+    }
+
+    @media(max-width:1300px) {
+      #img {
+        margin-right: 130px;
+      }
+
+      #navCo {
+        color: white;
+        font-size: 24px;
+        margin-left: 14px;
+        margin-right: 130px;
+      }
+    }
+
+    @media(max-width:1264px) {
+      #img {
+        margin-right: 115px;
+      }
+
+      #navCo {
+        color: white;
+        font-size: 24px;
+        margin-left: 14px;
+        margin-right: 115px;
+      }
+    }
+
+    @media(max-width:1248px) {
+      #img {
+        margin-right: 100px;
+      }
+
+      #navCo {
+        color: white;
+        font-size: 24px;
+        margin-left: 14px;
+        margin-right: 100px;
+      }
+    }
+
+
+    @media(max-width:1216px) {
+      #img {
+        margin-right: 95px;
+      }
+
+      #navCo {
+        color: white;
+        font-size: 24px;
+        margin-left: 14px;
+        margin-right: 95px;
+      }
+    }
+
+    @media(max-width:1200px) {
+      #img {
+        margin-right: 90px;
+      }
+
+      #navCo {
+        color: white;
+        font-size: 24px;
+        margin-left: 14px;
+        margin-right: 90px;
+      }
+    }
+
+    @media(max-width:1188px) {
+      #img {
+        margin-right: 70px;
+      }
+
+      #navCo {
+        color: white;
+        font-size: 24px;
+        margin-left: 14px;
+        margin-right: 70px;
+      }
+    }
+
+    @media(max-width:1152px) {
+      #img {
+        margin-right: 50px;
+      }
+
+      #navCo {
+        color: white;
+        font-size: 24px;
+        margin-left: 14px;
+        margin-right: 50px;
+      }
+    }
+
+    @media(max-width:1108px) {
+      #img {
+        margin-right: 40px;
+      }
+
+      #navCo {
+        color: white;
+        font-size: 24px;
+        margin-left: 14px;
+        margin-right: 40px;
+      }
+    }
+
+    @media(max-width:1088px) {
+      #img {
+        margin-right: 25px;
+      }
+
+      #navCo {
+        color: white;
+        font-size: 24px;
+        margin-left: 14px;
+        margin-right: 25px;
+      }
+    }
+
+    @media(max-width:1056px) {
+      #img {
+        margin-right: 10px;
+      }
+
+      #navCo {
+        color: white;
+        font-size: 24px;
+        margin-left: 14px;
+        margin-right: 10px;
+      }
+    }
+
+    @media(max-width:1028px) {
+      #img {
+        margin-right: 0px;
+      }
+
+      #navHo {
+        color: white;
+        font-size: 24px;
+        margin-left: 10px;
+        margin-right: 14px;
+      }
+
+      #navCo {
+        color: white;
+        font-size: 24px;
+        margin-left: 14px;
+        margin-right: 0px;
+      }
+
+      #bookbtn {
+        transition: 0.4s;
+        font-size: 24px;
+        background: red;
+        border-radius: 10px;
+        margin-left: 5px;
+        padding-left: 40px;
+        padding-right: 40px;
+        color: white;
+        border: 2px solid white;
+        text-decoration: none;
+      }
+    }
+    </style>
+
+</head>
+
+
+<body id="Galbody">
+
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg sticky navbar-dark">
+        <div class="container-fluid">
+            <img id="img" src="./monus.png" alt="image" srcset="" width="180px" height="75px">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " id="navHo" aria-current="page" href="./IndexHome.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " id="navGa" aria-current="page" href="./NGallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navRe" href="#" id="navbarDropdownMenuLink" role="button"
+                          data-bs-toggle="dropdown" aria-expanded="false">
+                          Regions
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="navDr">
+                          <li><a class="dropdown-item" href="./IndexEHome.html" id="navDo">East</a></li>
+                          <li><a class="dropdown-item" href="./IndexWHome.html" id="navDo">West</a></li>
+                          <li><a class="dropdown-item" href="./IndexNHome.html" id="navDo">North</a></li>
+                          <li><a class="dropdown-item" href="./IndexSHome.html" id="navDo">South</a></li>
+                        </ul>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link " id="navAb" href="./About-us.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="navCo" href="./Contact-us.html">Contact</a>
+                    </li>
+                    <button id="bookbtn"><a href="./booking.html" id="booklink">Book Us</a></button>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <br>
+    <br>
+
+    <!-- GALLERY -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-NORTH">
+                    <div class="portfolio-wrap">
+                        <img src="./al aqsa mosque/img/1.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h3><b>NORTH MONUMENT</b></h3>
+                            <p><b>Al Aqsa Mousque</b></p>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="./al aqsa mosque/img/1.jpg" data-gall="portfolioGallery" class="venobox"
+                                title="Picture"><i class="bx bx-plus"></i></a>
+                            <a href="./al aqsa mosque/Al Aqsa Mosque.html" title="More Details"><i
+                                    class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-NORTH">
+                    <div class="portfolio-wrap">
+                        <img src="./mount fuji/img/1.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h3><b>NORTH MONUMENT</b></h3>
+                            <p><b>Mount Fuji</b></p>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="./mount fuji/img/1.jpg" data-gall="portfolioGallery" class="venobox"
+                                title="Picture"><i class="bx bx-plus"></i></a>
+                            <a href="./mount fuji/Mount Fuji.html" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-NORTH">
+                    <div class="portfolio-wrap">
+                        <img src="./mount kilimanjoro/img/1.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h3><b>NORTH MONUMENT</b></h3>
+                            <p><b>Mount kilimanjoro</b></p>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="./mount kilimanjoro/img/1.jpg" data-gall="portfolioGallery" class="venobox"
+                                title="Picture"><i class="bx bx-plus"></i></a>
+                            <a href="./mount kilimanjoro/Mount Kilimanjaro.html" title="More Details"><i
+                                    class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-NORTH">
+                    <div class="portfolio-wrap">
+                        <img src="./mount rushmore/img/1.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h3><b>North MONUMENT</b></h3>
+                            <p><b>Mount Rushmore</b></p>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="./mount rushmore/img/1.jpg" data-gall="portfolioGallery" class="venobox"
+                                title="Picture"><i class="bx bx-plus"></i></a>
+                            <a href="./mount rushmore/Mount Rushmore.html" title="More Details"><i
+                                    class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-NORTH">
+                    <div class="portfolio-wrap">
+                        <img src="./palace versaillies/img/1.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h3><b>NORTH MONUMENT</b></h3>
+                            <p><b>Palace Versailles</b></p>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="./palace versaillies/img/1.jpg" data-gall="portfolioGallery" class="venobox"
+                                title="Picture"><i class="bx bx-plus"></i></a>
+                            <a href="./palace versaillies/Palace of Versailles.html" title="More Details"><i
+                                    class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-NORTH">
+                    <div class="portfolio-wrap">
+                        <img src="./ponte vecchio/img/1.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h3><b>NORTH MONUMENT</b></h3>
+                            <p><b>Ponte Vecchio</b></p>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="./ponte vecchio/img/1.jpg" data-gall="portfolioGallery" class="venobox"
+                                title="Picture"><i class="bx bx-plus"></i></a>
+                            <a href="./ponte vecchio/Ponte Vecchio.html" title="More Details"><i
+                                    class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-NORTH">
+                    <div class="portfolio-wrap">
+                        <img src="./portofino/img/1.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h3><b>NORTH MONUMENT</b></h3>
+                            <p><b>Portofino</b></p>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="./portofino/img/1.jpg" data-gall="portfolioGallery" class="venobox"
+                                title="Picture"><i class="bx bx-plus"></i></a>
+                            <a href="./portofino/Pliny the Elder Referred to.html" title="More Details"><i
+                                    class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-NORTH">
+                    <div class="portfolio-wrap">
+                        <img src="./potala palace/img/1.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h3><b>NORTH MONUMENT</b></h3>
+                            <p><b>Potala Palace</b></p>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="./potala palace/img/1.jpg" data-gall="portfolioGallery" class="venobox"
+                                title="Picture"><i class="bx bx-plus"></i></a>
+                            <a href="./potala palace/Potala Place.html" title="More Details"><i
+                                    class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-NORTH">
+                    <div class="portfolio-wrap">
+                        <img src="./rialto bridge/img/1.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h3><b>NORTH MONUMENT</b></h3>
+                            <p><b>Rialto Bridge</b></p>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="./rialto bridge/img/1.jpg" data-gall="portfolioGallery" class="venobox"
+                                title="Picture"><i class="bx bx-plus"></i></a>
+                            <a href="./rialto bridge/Rialto Bridge.html" title="More Details"><i
+                                    class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-NORTH">
+                    <div class="portfolio-wrap">
+                        <img src="./stonehenge history/img/1.jpeg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h3><b>NORTH MONUMENT</b></h3>
+                            <p><b>Stonehenge </b></p>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="./stonehenge history/img/1.jpeg" data-gall="portfolioGallery" class="venobox"
+                                title="Picture"><i class="bx bx-plus"></i></a>
+                            <a href="./stonehenge history/stonehenge history.html Most.html" title="More Details"><i
+                                    class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-NORTH">
+                    <div class="portfolio-wrap">
+                        <img src="./table mountain/img/1.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h3><b>NORTH MONUMENT</b></h3>
+                            <p><b>Table Mountain</b></p>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="./table mountain/img/1.jpg" data-gall="portfolioGallery" class="venobox"
+                                title="Picture"><i class="bx bx-plus"></i></a>
+                            <a href="./table mountain/table mountain.html Most.html" title="More Details"><i
+                                    class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-NORTH">
+                    <div class="portfolio-wrap">
+                        <img src="./trevi fountain/img/1.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h3><b>NORTH MONUMENT</b></h3>
+                            <p><b>Tervi Fountain</b></p>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="./trevi fountain/img/1.jpg" data-gall="portfolioGallery" class="venobox"
+                                title="Picture"><i class="bx bx-plus"></i></a>
+                            <a href="./trevi fountain/The History of Rome.html Most.html" title="More Details"><i
+                                    class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer id="foot " class="bd-footer  bg-black  ">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-3 mb-3 ">
+                    <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none "
+                        aria-label="Bootstrap ">
+                        <img style="margin-top: 30px; margin-left: 0px; " src="../images/monus.png" width="230 "
+                            height="100 " class="d-block me-2 " viewBox="0 0 118 94 " role="img ">
+                        <path fill-rule="evenodd " clip-rule="evenodd "
+                            d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28
+                  14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214
+                  5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884
+                  0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z "
+                            fill="currentColor " />
+                        </svg>
+
+                    </a>
+                    <ul class="list-unstyled small text-muted ">
+                        <li class="mb-2 ">Designed and built by <a href="./About-us.html">Our team</a> with
+                            the
+                            help of our contributors.</li>
+                        <li class="mb-2 ">Code licensed <a target="_blank " rel="license noopener ">
+                                CopyRights 2022, docs CC BY A2112F2</a>.</li>
+
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 offset-lg-1 mb-3 " style="margin-top: 40px;margin-left: 80px; ">
+                    <h3 style="color:rgb(213, 213, 5) ">Links</h3>
+                    <ul class="list-unstyled ">
+                        <li class="mb-2 "><a href="./IndexHome.html ">Home</a></li>
+                        <li class="mb-2 "><a href="./About-us.html">About-Us</a></li>
+                        <li class="mb-2 "><a href="./Contact-us.html">Contact Us</a></li>
+                        <li class="mb-2 "><a href="./booking.html ">Booking</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3 " style="margin-top: 40px; margin-left: 80px;">
+                    <h3 style="color:rgb(213, 213, 5) ">Regions</h3>
+                    <ul class="list-unstyled ">
+                        <li class="mb-2 "><a href="./IndexEHome.html">East</a></li>
+                        <li class="mb-2 "><a href="./IndexWHome.html">West</a></li>
+                        <li class="mb-2 "><a href="./IndexNHome.html">North</a></li>
+                        <li class="mb-2 "><a href="./IndexSHome.html">South</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3 " style="margin-top: 40px;margin-left: 80px;">
+                    <h3 style="color:rgb(213, 213, 5) ">Booking Pages</h3>
+                    <ul class="list-unstyled ">
+                        <li class="mb-2 "><a href="./booking.html">Bus Services</a></li>
+                        <li class="mb-2 "><a href="./Flight.html">Flight Services</a></li>
+                        <li class="mb-2 "><a href="./Hotel.html">Hotel Services</a></li>
+                        <li class="mb-2 "><a href="./Cargo.html">Cargo Services</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <a href="#" class="back-to-top"><i class="bx bxs-up-arrow-alt"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="../vendor/php-email-form/validate.js"></script>
+    <script src="../vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="../vendor/venobox/venobox.min.js"></script>
+    <script src="../vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="../vendor/aos/aos.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="../js/main.js"></script>
+
+    <!-- JQuery v1.12.4 -->
+    <script src="../js/jquery-1.12.4.min.js"></script>
+
+    <!-- Library - Js -->
+    <script src="../libraries/lib.js"></script>
+
+    <!-- Library - Theme JS -->
+    <script src="../js/functions.js"></script>
+
+</body>
+
+</html>
